@@ -1,0 +1,7 @@
+D:\Users\1213-12\source\repos\Practice5Sulemanov2\Practice5Sulemanov2\bin\Debug\Practice5Sulemanov2.exe.config
+D:\Users\1213-12\source\repos\Practice5Sulemanov2\Practice5Sulemanov2\bin\Debug\Practice5Sulemanov2.exe
+D:\Users\1213-12\source\repos\Practice5Sulemanov2\Practice5Sulemanov2\bin\Debug\Practice5Sulemanov2.pdb
+D:\Users\1213-12\source\repos\Practice5Sulemanov2\Practice5Sulemanov2\obj\Debug\Practice5Sulemanov2.csproj.AssemblyReference.cache
+D:\Users\1213-12\source\repos\Practice5Sulemanov2\Practice5Sulemanov2\obj\Debug\Practice5Sulemanov2.csproj.CoreCompileInputs.cache
+D:\Users\1213-12\source\repos\Practice5Sulemanov2\Practice5Sulemanov2\obj\Debug\Practice5Sulemanov2.exe
+D:\Users\1213-12\source\repos\Practice5Sulemanov2\Practice5Sulemanov2\obj\Debug\Practice5Sulemanov2.pdb
