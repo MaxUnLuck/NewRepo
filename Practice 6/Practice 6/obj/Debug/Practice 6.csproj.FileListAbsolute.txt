@@ -1,0 +1,7 @@
+D:\Users\1213-12\source\repos\Practice 6\Practice 6\bin\Debug\Practice 6.exe.config
+D:\Users\1213-12\source\repos\Practice 6\Practice 6\bin\Debug\Practice 6.exe
+D:\Users\1213-12\source\repos\Practice 6\Practice 6\bin\Debug\Practice 6.pdb
+D:\Users\1213-12\source\repos\Practice 6\Practice 6\obj\Debug\Practice 6.csproj.AssemblyReference.cache
+D:\Users\1213-12\source\repos\Practice 6\Practice 6\obj\Debug\Practice 6.csproj.CoreCompileInputs.cache
+D:\Users\1213-12\source\repos\Practice 6\Practice 6\obj\Debug\Practice 6.exe
+D:\Users\1213-12\source\repos\Practice 6\Practice 6\obj\Debug\Practice 6.pdb
