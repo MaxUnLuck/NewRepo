@@ -1,0 +1,7 @@
+D:\Users\1213-10\source\repos\Practice 10 Suiemanov\bin\Debug\Practice 10 Suiemanov.exe.config
+D:\Users\1213-10\source\repos\Practice 10 Suiemanov\bin\Debug\Practice 10 Suiemanov.exe
+D:\Users\1213-10\source\repos\Practice 10 Suiemanov\bin\Debug\Practice 10 Suiemanov.pdb
+D:\Users\1213-10\source\repos\Practice 10 Suiemanov\obj\Debug\Practice 10 Suiemanov.csproj.AssemblyReference.cache
+D:\Users\1213-10\source\repos\Practice 10 Suiemanov\obj\Debug\Practice 10 Suiemanov.csproj.CoreCompileInputs.cache
+D:\Users\1213-10\source\repos\Practice 10 Suiemanov\obj\Debug\Practice 10 Suiemanov.exe
+D:\Users\1213-10\source\repos\Practice 10 Suiemanov\obj\Debug\Practice 10 Suiemanov.pdb
