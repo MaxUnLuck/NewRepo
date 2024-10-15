@@ -10,7 +10,7 @@ namespace Practice_10_Suiemanov
     {
         static void Main(string[] args)
         {
-            Console.Title = "Практичекая №9";
+            Console.Title = "Практичекая №10";
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             while (true)
             {
