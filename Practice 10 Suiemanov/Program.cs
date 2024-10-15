@@ -1,4 +1,4 @@
-﻿////////////////////////////////////////////////////
+////////////////////////////////////////////////////
 /// * Практическая работа № 10                   ///
 /// * Сулейманов Максим Андреевич 2-ИСПд         ///
 /// * Выполнить Практическую дву мерным массивам ///
@@ -12,14 +12,15 @@ namespace Practice_10_Suiemanov
         {
             Console.Title = "Практичекая №10";
             Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
             while (true)
             {
                 try
                 {
                     Console.WriteLine("Здраствуйте!");
-                    Console.Write("Введите какого порядка матрица не больше 5: ");
+                    Console.Write("Введите какого порядка матрица ");
                     int orderoftable = Convert.ToInt32(Console.ReadLine());
-                    if (orderoftable < 0)
+                    if (orderoftable <= 0)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Массив не может быть с порядком меньше одного.");
@@ -29,12 +30,43 @@ namespace Practice_10_Suiemanov
                         continue;
                     }
                     int[,] table = new int[orderoftable, orderoftable];
+                    bool isnoex = false;
                     for (int i = 0; i < orderoftable; i++) // Ввод матрицы
                     {
                         for (int j = 0; j < orderoftable; j++)
                         {
-                            Console.Write($"Введите значение элемент строки {i + 1} и столбца {j + 1}: ");
-                            table[i, j] = Convert.ToInt32(Console.ReadLine());
+                            while (!isnoex)
+                            {
+                                isnoex = true;
+                                try
+                                {
+                                    Console.Write($"Введите значение элемент строки {i + 1} и столбца {j + 1}: ");
+                                    table[i, j] = Convert.ToInt32(Console.ReadLine());
+                                }
+                                catch (IndexOutOfRangeException iex)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine(iex.Message);
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                    isnoex = false;
+                                }
+                                catch (FormatException fex)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine(fex.Message);
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                    isnoex = false;
+                                }
+                                catch (Exception ex)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine(ex.Message);
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                    isnoex = false;
+
+                                }
+                            }
+                            isnoex = false;
                         }
                     }
                     Console.WriteLine("Ваша матрица это:");
@@ -54,10 +86,6 @@ namespace Practice_10_Suiemanov
                         {
                             minnum = table[i, i];
                         }
-                    }
-                    for (int i = 1; i < orderoftable; i++) // заполнение диоганали минимальным элементом
-                    {
-                        table[i, i] = minnum;
                     }
                     for (int i = 0; i < orderoftable; i++) // длина диоганали // замена всех элементов матрицы выше главной диоганали на 1
                     {
@@ -84,6 +112,10 @@ namespace Practice_10_Suiemanov
                                 }
                             }
                         }
+                    }
+                    for (int i = 1; i < orderoftable; i++) // заполнение диоганали минимальным элементом
+                    {
+                        table[i, i] = minnum;
                     }
                     for (int i = 0; i < orderoftable; i++) // вывод изменненного массива
                     {
