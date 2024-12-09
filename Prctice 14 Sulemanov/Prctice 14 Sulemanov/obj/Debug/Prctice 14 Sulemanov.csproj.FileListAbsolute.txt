@@ -1,0 +1,7 @@
+C:\Users\GG343430\source\repos\Prctice 14 Sulemanov\Prctice 14 Sulemanov\bin\Debug\Prctice 14 Sulemanov.exe.config
+C:\Users\GG343430\source\repos\Prctice 14 Sulemanov\Prctice 14 Sulemanov\bin\Debug\Prctice 14 Sulemanov.exe
+C:\Users\GG343430\source\repos\Prctice 14 Sulemanov\Prctice 14 Sulemanov\bin\Debug\Prctice 14 Sulemanov.pdb
+C:\Users\GG343430\source\repos\Prctice 14 Sulemanov\Prctice 14 Sulemanov\obj\Debug\Prctice 14 Sulemanov.csproj.AssemblyReference.cache
+C:\Users\GG343430\source\repos\Prctice 14 Sulemanov\Prctice 14 Sulemanov\obj\Debug\Prctice 14 Sulemanov.csproj.CoreCompileInputs.cache
+C:\Users\GG343430\source\repos\Prctice 14 Sulemanov\Prctice 14 Sulemanov\obj\Debug\Prctice 14 Sulemanov.exe
+C:\Users\GG343430\source\repos\Prctice 14 Sulemanov\Prctice 14 Sulemanov\obj\Debug\Prctice 14 Sulemanov.pdb
