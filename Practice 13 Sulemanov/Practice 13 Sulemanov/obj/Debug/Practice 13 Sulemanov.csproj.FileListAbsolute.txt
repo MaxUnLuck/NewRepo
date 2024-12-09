@@ -1,0 +1,7 @@
+C:\Users\GG343430\source\repos\Practice 13 Sulemanov\Practice 13 Sulemanov\bin\Debug\Practice 13 Sulemanov.exe.config
+C:\Users\GG343430\source\repos\Practice 13 Sulemanov\Practice 13 Sulemanov\bin\Debug\Practice 13 Sulemanov.exe
+C:\Users\GG343430\source\repos\Practice 13 Sulemanov\Practice 13 Sulemanov\bin\Debug\Practice 13 Sulemanov.pdb
+C:\Users\GG343430\source\repos\Practice 13 Sulemanov\Practice 13 Sulemanov\obj\Debug\Practice 13 Sulemanov.csproj.AssemblyReference.cache
+C:\Users\GG343430\source\repos\Practice 13 Sulemanov\Practice 13 Sulemanov\obj\Debug\Practice 13 Sulemanov.csproj.CoreCompileInputs.cache
+C:\Users\GG343430\source\repos\Practice 13 Sulemanov\Practice 13 Sulemanov\obj\Debug\Practice 13 Sulemanov.exe
+C:\Users\GG343430\source\repos\Practice 13 Sulemanov\Practice 13 Sulemanov\obj\Debug\Practice 13 Sulemanov.pdb
