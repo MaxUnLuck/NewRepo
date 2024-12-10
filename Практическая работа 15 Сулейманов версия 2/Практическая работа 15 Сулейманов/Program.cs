@@ -140,52 +140,51 @@ namespace Практическая_работа_15_Сулейманов
         }
         class SportsSection
         {
-            string sportname;
-            string nameofinstruction;
-            string timebegin;
-            string timeend;
+            string sportName;
+            string nameOfInstruction;
+            string timeBegin;
+            string timeEnd;
             string adres;
-            byte countofstudent;
-            byte maxcountofstudent;
-            private byte getfreeplace() // вычисление количества свободных мест
+            byte countOfStudent;
+            byte maxCountOfStudent;
+            byte GetFreePlace() // вычисление количества свободных мест
             {
-                return Convert.ToByte(maxcountofstudent - countofstudent);
+                return Convert.ToByte(maxCountOfStudent - countOfStudent);
             }
-          
-            public void GetInfo()
+            void GetInfo()
             {
-                Console.WriteLine("\nСпортивная секция - " + sportname);
-                Console.WriteLine("  инструктор: " + nameofinstruction);
-                Console.WriteLine("  начало занятий в часах: " + timebegin);
-                Console.WriteLine("  конец занятий в часах:  " + timeend); 
+                Console.WriteLine("\nСпортивная секция - " + sportName);
+                Console.WriteLine("  инструктор: " + nameOfInstruction);
+                Console.WriteLine("  начало занятий в часах: " + timeBegin);
+                Console.WriteLine("  конец занятий в часах:  " + timeEnd); 
                 Console.WriteLine("  адресс:" + adres);
-                Console.WriteLine("  обучающееся " + countofstudent);
-                Console.WriteLine("  свободных мест " + getfreeplace());
+                Console.WriteLine("  обучающееся " + countOfStudent);
+                Console.WriteLine("  свободных мест " + GetFreePlace());
             }
-            public void SetInfo()
+            void SetInfo()
             {
-                sportname = WriteAndRead("Введите вид спорта: ", true);
-                nameofinstruction = WriteAndRead("Введите имя инструктора: ", true);
+                sportName = WriteAndRead("Введите вид спорта: ", true);
+                nameOfInstruction = WriteAndRead("Введите имя инструктора: ", true);
                 while (true)
                 {
-                    timebegin = WriteAndRead("Введите время начала в часах: ", false);
-                    timeend = WriteAndRead("Введите время конца в часах: ", false);
-                    if (!Int32.TryParse(timebegin, out var number1))
+                    timeBegin = WriteAndRead("Введите время начала в часах: ", false);
+                    timeEnd = WriteAndRead("Введите время конца в часах: ", false);
+                    if (!Int32.TryParse(timeBegin, out var number1))
                     {
                         ExeptionWrite("Неправильный формат данных.");
                         continue;
                     }
-                    if (!Int32.TryParse(timeend, out var number2))
+                    if (!Int32.TryParse(timeEnd, out var number2))
                     {
                         ExeptionWrite("Неправильный формат данных.");
                         continue;
                     }
-                    if (!((Convert.ToInt32(timebegin) >= 0 && Convert.ToInt32(timebegin) <= 23) && (Convert.ToInt32(timeend) >= 0 && Convert.ToInt32(timeend) <= 23)))
+                    if (!((Convert.ToInt32(timeBegin) >= 0 && Convert.ToInt32(timeBegin) <= 23) && (Convert.ToInt32(timeEnd) >= 0 && Convert.ToInt32(timeEnd) <= 23)))
                     {
                         ExeptionWrite("Час может быть только от 0 до 23.");
                         continue;
                     }
-                    if (Convert.ToInt32(timebegin) > Convert.ToInt32(timeend))
+                    if (Convert.ToInt32(timeBegin) > Convert.ToInt32(timeEnd))
                     {
                         ExeptionWrite("Время начало не может быть позже конца");
                         continue;
@@ -195,9 +194,9 @@ namespace Практическая_работа_15_Сулейманов
                 adres = WriteAndRead("Введите адресс: ", false);
                 while(true)
                 {
-                    countofstudent = WriteAndReadByte("Сколько в секции учеников: ");
-                    maxcountofstudent = WriteAndReadByte("Сколько в секции мест может быть: ");
-                    if (maxcountofstudent > countofstudent)
+                    countOfStudent = WriteAndReadByte("Сколько в секции учеников: ");
+                    maxCountOfStudent = WriteAndReadByte("Сколько в секции мест может быть: ");
+                    if (maxCountOfStudent > countOfStudent)
                     {
                         break;
                     }
@@ -209,7 +208,11 @@ namespace Практическая_работа_15_Сулейманов
                 SetInfo();
                 GetInfo();
             }
-
+            ~SportsSection()
+            {
+                Console.WriteLine("Старый экземпляр уничтожен.");
+                Console.ReadKey();
+            }
         }
         static void Main(string[] args)
         {
@@ -223,6 +226,7 @@ namespace Практическая_работа_15_Сулейманов
                 {
                     break;
                 }
+                
                 Console.Clear();
             }
         }
