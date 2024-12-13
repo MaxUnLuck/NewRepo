@@ -1,0 +1,10 @@
+C:\Users\GG343430\source\repos\WindowsFormsApp2_19Suule,anov\WindowsFormsApp2_19Suule,anov\bin\Debug\WindowsFormsApp2_19Suule,anov.exe.config
+C:\Users\GG343430\source\repos\WindowsFormsApp2_19Suule,anov\WindowsFormsApp2_19Suule,anov\bin\Debug\WindowsFormsApp2_19Suule,anov.exe
+C:\Users\GG343430\source\repos\WindowsFormsApp2_19Suule,anov\WindowsFormsApp2_19Suule,anov\bin\Debug\WindowsFormsApp2_19Suule,anov.pdb
+C:\Users\GG343430\source\repos\WindowsFormsApp2_19Suule,anov\WindowsFormsApp2_19Suule,anov\obj\Debug\WindowsFormsApp2_19Suule,anov.csproj.AssemblyReference.cache
+C:\Users\GG343430\source\repos\WindowsFormsApp2_19Suule,anov\WindowsFormsApp2_19Suule,anov\obj\Debug\WindowsFormsApp2_19Suule_anov.Form1.resources
+C:\Users\GG343430\source\repos\WindowsFormsApp2_19Suule,anov\WindowsFormsApp2_19Suule,anov\obj\Debug\WindowsFormsApp2_19Suule_anov.Properties.Resources.resources
+C:\Users\GG343430\source\repos\WindowsFormsApp2_19Suule,anov\WindowsFormsApp2_19Suule,anov\obj\Debug\WindowsFormsApp2_19Suule,anov.csproj.GenerateResource.cache
+C:\Users\GG343430\source\repos\WindowsFormsApp2_19Suule,anov\WindowsFormsApp2_19Suule,anov\obj\Debug\WindowsFormsApp2_19Suule,anov.csproj.CoreCompileInputs.cache
+C:\Users\GG343430\source\repos\WindowsFormsApp2_19Suule,anov\WindowsFormsApp2_19Suule,anov\obj\Debug\WindowsFormsApp2_19Suule,anov.exe
+C:\Users\GG343430\source\repos\WindowsFormsApp2_19Suule,anov\WindowsFormsApp2_19Suule,anov\obj\Debug\WindowsFormsApp2_19Suule,anov.pdb
