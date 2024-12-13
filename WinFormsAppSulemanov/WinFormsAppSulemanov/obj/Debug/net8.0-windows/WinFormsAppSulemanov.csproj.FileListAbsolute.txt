@@ -1,0 +1,17 @@
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\bin\Debug\net8.0-windows\WinFormsAppSulemanov.exe
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\bin\Debug\net8.0-windows\WinFormsAppSulemanov.deps.json
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\bin\Debug\net8.0-windows\WinFormsAppSulemanov.runtimeconfig.json
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\bin\Debug\net8.0-windows\WinFormsAppSulemanov.dll
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\bin\Debug\net8.0-windows\WinFormsAppSulemanov.pdb
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\WinFormsAppSulemanov.Form1.resources
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\WinFormsAppSulemanov.csproj.GenerateResource.cache
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\WinFormsAppSulemanov.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\WinFormsAppSulemanov.AssemblyInfoInputs.cache
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\WinFormsAppSulemanov.AssemblyInfo.cs
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\WinFormsAppSulemanov.csproj.CoreCompileInputs.cache
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\WinFormsAppSulemanov.dll
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\refint\WinFormsAppSulemanov.dll
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\WinFormsAppSulemanov.pdb
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\WinFormsAppSulemanov.genruntimeconfig.cache
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\ref\WinFormsAppSulemanov.dll
+C:\Users\GG343430\source\repos\WinFormsAppSulemanov\WinFormsAppSulemanov\obj\Debug\net8.0-windows\WinFormsAppSulemanov.Properties.Resources.resources
