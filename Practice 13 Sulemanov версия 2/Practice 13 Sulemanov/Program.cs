@@ -31,10 +31,32 @@ namespace Practice_13_Sulemanov
 {
     internal class Program
     {
+        public static void WriteTop(string nameTop)
+        {
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write(" ╓─╥─");
+            for (int i = 0; i < nameTop.Length; i++)
+            {
+                Console.Write("─");
+            }
+            Console.Write("─╥─╖ ");
+            Console.Write("\n ║ ║ ");
+            Console.Write(nameTop);
+            Console.Write(" ║ ║ ");
+            Console.Write("\n ╙─╨─");
+            for (int i = 0; i < nameTop.Length; i++)
+            {
+                Console.Write("─");
+            }
+            Console.Write("─╨─╜ \n");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+        }
         public static void ExeptionWrite(string extext) // вывод сообщения ошибок
         {
             Console.BackgroundColor = ConsoleColor.Red;
-            Console.WriteLine(extext);
+            Console.WriteLine(extext + "!");
             Console.BackgroundColor = ConsoleColor.DarkBlue;
         }
         static bool YesOrNo() // опрос с ответом да(Y) или нет(N) для бесконечного повторение кода
@@ -133,7 +155,7 @@ namespace Practice_13_Sulemanov
                 }
             }
         }
-        static string WriteAndRead(string text, bool isname) // вывод тектса запроса и ввод ответа
+        static string WriteAndRead(string text, bool isname, bool isnumber) // вывод тектса запроса и ввод ответа
         {
             string readedtext = string.Empty;
             while (true)
@@ -156,7 +178,8 @@ namespace Practice_13_Sulemanov
                         bool islegitname = true;
                         for (int i = 0; i < readedtext.Length; i++)
                         {
-                            if (!(readedtext[i] >= 'a' && readedtext[i] <= 'z' || readedtext[i] >= 'A' && readedtext[i] <= 'Z')) // Проверяем первый символ ли буква
+                            if (!((readedtext[i] >= 'a' && readedtext[i] <= 'z' || readedtext[i] >= 'A' && readedtext[i] <= 'Z') 
+                                || (readedtext[i] >= 'а' && readedtext[i] <= 'я' || readedtext[i] >= 'А' && readedtext[i] <= 'Я'))) // Проверяем все символы они ли буква
                             {
                                 ExeptionWrite($"Неприемлемый символ [{readedtext[i]}], можно только латинского алфавита");
                                 islegitname = false;
@@ -169,12 +192,16 @@ namespace Practice_13_Sulemanov
                             }
                         }
                     }
-                    if (isname == false)
+                    if (!isnumber)
                     {
-                        if (!(readedtext[0] >= 'a' && readedtext[0] <= 'z' || readedtext[0] >= 'A' && readedtext[0] <= 'Z')) // Проверяем первый символ ли буква
+                        if (isname == false)
                         {
-                            ExeptionWrite($"Неприемлемый символ [{readedtext[0]}], можно только латинского алфавита");
-                            continue;
+                            if (!((readedtext[0] >= 'a' && readedtext[0] <= 'z' || readedtext[0] >= 'A' && readedtext[0] <= 'Z')
+                                    || (readedtext[0] >= 'а' && readedtext[0] <= 'я' || readedtext[0] >= 'А' && readedtext[0] <= 'Я'))) // Проверяем первый символ ли буква
+                            {
+                                ExeptionWrite($"Неприемлемый символ [{readedtext[0]}], можно только буквы латинского алфавита и русского алфавита");
+                                continue;
+                            }
                         }
                     }
                     isnoex = true;
@@ -196,10 +223,10 @@ namespace Practice_13_Sulemanov
             }
             return readedtext;
         }
-        
-        static int WriteAndReadInt(string text) // вывод тектса запроса и ввод ответа
+
+        static double WriteAndReadDouble(string text) // вывод тектса запроса и ввод ответа
         {
-            int readedint = 0;
+            double readedint = 0;
             while (true)
             {
                 bool isnoex = false;
@@ -208,7 +235,7 @@ namespace Practice_13_Sulemanov
                     Console.Write(text);
                     Console.BackgroundColor = ConsoleColor.Black;
                     Console.Write(" ");
-                    readedint = Convert.ToInt32(Console.ReadLine());
+                    readedint = Convert.ToDouble(Console.ReadLine());
                     Console.BackgroundColor = ConsoleColor.DarkBlue;
                     if (readedint < 0)
                     {
@@ -219,6 +246,13 @@ namespace Practice_13_Sulemanov
                     {
                         ExeptionWrite("Не может быть равно 0");
                         continue;
+                    }
+                    if (readedint > 19)
+                    {
+                        {
+                            ExeptionWrite("Не может быть больше 19 часов, топлива не хватит.");
+                            continue;
+                        }
                     }
                     isnoex = true;
                 }
@@ -242,10 +276,10 @@ namespace Practice_13_Sulemanov
         public struct Airline
         {
             string destination; // пункт назначения
-            int flightNumbrer; // номер рейса
+            string flightNumbrer; // номер рейса
             string typeOfPlane; // тип самолета
-            int timeOfFlight; // время полета в чесах
-            public Airline(string destination_, int flightnumbrer_, string typeofplane_, int timeofflight_)
+            double timeOfFlight; // время полета в чесах
+            public Airline(string destination_, string flightnumbrer_, string typeofplane_, double timeofflight_)
             {
                 destination = destination_;
                 flightNumbrer = flightnumbrer_;
@@ -256,6 +290,14 @@ namespace Practice_13_Sulemanov
             {
                 return destination[0];
             }
+            public string GetTypeOfPlane() // получения первой буквы из пункта назначения
+            {
+                return typeOfPlane;
+            }
+            public double GetTimeOfFlight() // получения первой буквы из пункта назначения
+            {
+                return timeOfFlight;
+            }
             public void InfoFlight()
             {
                 Console.WriteLine($"Рейс в {destination}" +
@@ -265,7 +307,7 @@ namespace Practice_13_Sulemanov
             }
 
         }
-        public static void Swap(Airline[] airlinest,int firstIndex, int secondIndex)
+        public static void Swap(Airline[] airlinest, int firstIndex, int secondIndex)
         {
             Airline temp = airlinest[firstIndex];
             airlinest[firstIndex] = airlinest[secondIndex];
@@ -284,10 +326,10 @@ namespace Practice_13_Sulemanov
                 int count = 0;
                 while (true) // ввод рейсов
                 {
-                    airlines[count] = new Airline(WriteAndRead("Введите пункт назначения:     ", true),
-                               Convert.ToInt32(WriteAndReadInt("Введите номер рейса:          ")),
-                                                  WriteAndRead("Введите тип самолета:         ", false),
-                               Convert.ToInt32(WriteAndReadInt("Введите длительность в часах: ")));
+                    airlines[count] = new Airline(WriteAndRead("Введите пункт назначения:     ", true, false),
+                                                 WriteAndRead("Введите номер рейса:           ", false, true),
+                                                  WriteAndRead("Введите тип самолета:         ", false, false),
+                                            WriteAndReadDouble("Введите длительность в часах: "));
                     count++;
                     if (!YesOrNo("Вы правильно ввели рейс? если ответите нет то он будет удален."))
                     {
@@ -314,23 +356,37 @@ namespace Practice_13_Sulemanov
                     }
                 }
                 Console.Clear();
-                Console.BackgroundColor = ConsoleColor.Black;
-                Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine(" ╓─╥───────────────────╥─╖ ");
-                Console.WriteLine(" ║ ║ Список перелетов: ║ ║ ");
-                Console.WriteLine(" ╙─╨───────────────────╨─╜ ");
-                Console.ForegroundColor = ConsoleColor.Gray;
-                Console.BackgroundColor = ConsoleColor.DarkBlue;
+                WriteTop("Список перелетов:");
                 for (int j = 0; j < airlines.Length; j++)
                 {
-                    Console.Write("." + (j + 1) + " [" +airlines[j].FirstLetterOfFligt() + "] ");
+                    Console.Write("." + (j + 1) + " [" + airlines[j].FirstLetterOfFligt() + "] ");
                     airlines[j].InfoFlight();
                 }
-                Console.BackgroundColor = ConsoleColor.Black;
-                if (YesOrNo())
+                string searchTypeOfPlane = WriteAndRead("\n\nНапишите тип самолета, полеты которого надо найти: ", false, false);
+                bool searching = false;
+                WriteTop("Список перелетов с этим типом:");
+                for (int j = 0; j < airlines.Length; j++)
                 {
-                    break;
+                    if (airlines[j].GetTypeOfPlane() == searchTypeOfPlane)
+                    {
+                        airlines[j].InfoFlight();
+                        searching = true;
+                    }
                 }
+                if (!searching)
+                {
+                    Console.WriteLine($"Полеты с типом самолета {searchTypeOfPlane} не найдены.");
+                }
+                WriteTop("Самый продолжительный полет:");
+                Airline MostLongFly = airlines[0];
+                for (int j = 1; j < airlines.Length; j++) // ссортировка по алфовиту рейсов
+                {
+                    if (airlines[j].GetTimeOfFlight() > MostLongFly.GetTimeOfFlight())
+                        MostLongFly = airlines[j];
+                }
+                MostLongFly.InfoFlight();
+                Console.BackgroundColor = ConsoleColor.Black;
+                if (YesOrNo()) break;
                 else
                 {
                     Console.Clear();

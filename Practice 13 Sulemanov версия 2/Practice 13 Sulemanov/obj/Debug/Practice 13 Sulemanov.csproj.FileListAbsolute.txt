@@ -12,3 +12,10 @@ D:\Users\1213-3\Documents\2-ИСПд\Сулейманов\Practice 13 Sulemanov\
 D:\Users\1213-3\Documents\2-ИСПд\Сулейманов\Practice 13 Sulemanov\Practice 13 Sulemanov\obj\Debug\Practice 13 Sulemanov.csproj.CoreCompileInputs.cache
 D:\Users\1213-3\Documents\2-ИСПд\Сулейманов\Practice 13 Sulemanov\Practice 13 Sulemanov\obj\Debug\Practice 13 Sulemanov.exe
 D:\Users\1213-3\Documents\2-ИСПд\Сулейманов\Practice 13 Sulemanov\Practice 13 Sulemanov\obj\Debug\Practice 13 Sulemanov.pdb
+D:\Users\1213-3\Documents\2-ИСПд\Сулейманов\Practice 13 Sulemanov версия 2\Practice 13 Sulemanov\bin\Debug\Practice 13 Sulemanov.exe.config
+D:\Users\1213-3\Documents\2-ИСПд\Сулейманов\Practice 13 Sulemanov версия 2\Practice 13 Sulemanov\bin\Debug\Practice 13 Sulemanov.exe
+D:\Users\1213-3\Documents\2-ИСПд\Сулейманов\Practice 13 Sulemanov версия 2\Practice 13 Sulemanov\bin\Debug\Practice 13 Sulemanov.pdb
+D:\Users\1213-3\Documents\2-ИСПд\Сулейманов\Practice 13 Sulemanov версия 2\Practice 13 Sulemanov\obj\Debug\Practice 13 Sulemanov.csproj.AssemblyReference.cache
+D:\Users\1213-3\Documents\2-ИСПд\Сулейманов\Practice 13 Sulemanov версия 2\Practice 13 Sulemanov\obj\Debug\Practice 13 Sulemanov.csproj.CoreCompileInputs.cache
+D:\Users\1213-3\Documents\2-ИСПд\Сулейманов\Practice 13 Sulemanov версия 2\Practice 13 Sulemanov\obj\Debug\Practice 13 Sulemanov.exe
+D:\Users\1213-3\Documents\2-ИСПд\Сулейманов\Practice 13 Sulemanov версия 2\Practice 13 Sulemanov\obj\Debug\Practice 13 Sulemanov.pdb
