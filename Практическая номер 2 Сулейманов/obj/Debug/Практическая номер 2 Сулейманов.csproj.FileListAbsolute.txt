@@ -1,0 +1,10 @@
+D:\Users\1213-8\source\repos\Практическая номер 2 Сулейманов\bin\Debug\Практическая номер 2 Сулейманов.exe.config
+D:\Users\1213-8\source\repos\Практическая номер 2 Сулейманов\bin\Debug\Практическая номер 2 Сулейманов.exe
+D:\Users\1213-8\source\repos\Практическая номер 2 Сулейманов\bin\Debug\Практическая номер 2 Сулейманов.pdb
+D:\Users\1213-8\source\repos\Практическая номер 2 Сулейманов\obj\Debug\Практическая номер 2 Сулейманов.csproj.AssemblyReference.cache
+D:\Users\1213-8\source\repos\Практическая номер 2 Сулейманов\obj\Debug\Практическая_номер_2_Сулейманов.FormMain.resources
+D:\Users\1213-8\source\repos\Практическая номер 2 Сулейманов\obj\Debug\Практическая_номер_2_Сулейманов.Properties.Resources.resources
+D:\Users\1213-8\source\repos\Практическая номер 2 Сулейманов\obj\Debug\Практическая номер 2 Сулейманов.csproj.GenerateResource.cache
+D:\Users\1213-8\source\repos\Практическая номер 2 Сулейманов\obj\Debug\Практическая номер 2 Сулейманов.csproj.CoreCompileInputs.cache
+D:\Users\1213-8\source\repos\Практическая номер 2 Сулейманов\obj\Debug\Практическая номер 2 Сулейманов.exe
+D:\Users\1213-8\source\repos\Практическая номер 2 Сулейманов\obj\Debug\Практическая номер 2 Сулейманов.pdb
